@@ -6,9 +6,20 @@
 }
 
 .menu-bars {
+  position: relative;
   margin-left: 2rem;
   font-size: 2rem;
   background: none;
+  top: -60px;
+  cursor: pointer;
+}
+
+.menu-cross {
+  position: relative;
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+  cursor: pointer;
 }
 
 .nav-menu {
@@ -68,4 +79,16 @@
 
 span {
   margin-left: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    display: none;
+  }
 }
