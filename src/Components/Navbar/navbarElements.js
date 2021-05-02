@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
+import { RiBarChartHorizontalLine } from "react-icons/ri";
 
 export const Nav = styled.nav`
   background: #fff;
@@ -10,7 +10,9 @@ export const Nav = styled.nav`
   padding: 0.5rem;
   z-index: 10;
 `;
-
+export const NavText = styled.span`
+  padding-left: 7px;
+`;
 export const H1 = styled.h1`
   color: #000;
   display: flex;
@@ -19,7 +21,6 @@ export const H1 = styled.h1`
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
-  cursor: pointer;
   margin-top: 12px;
 
   @media screen and (max-width: 768px) {
@@ -35,13 +36,14 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+  font-size: 18px;
 
   &.active {
     color: #7c4dff;
   }
 `;
 
-export const Bars = styled(FaBars)`
+export const Bars = styled(RiBarChartHorizontalLine)`
   display: none;
   color: #000;
 

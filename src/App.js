@@ -1,10 +1,9 @@
 import "./App.css";
 import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./Pages/Home";
+import Home from "./Pages/homePage/Home";
 import { About } from "./Pages/About";
 import { Projects } from "./Pages/Projects";
-import { Volunteering } from "./Pages/Volunteering";
 import Navbar from "./Components/Navbar/Navbar";
 import Sidebar from "./Components/Sidebar/Sidebar";
 function App() {
@@ -18,10 +17,9 @@ function App() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Switch>
-        <Route path="/home" exact component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
-        <Route path="/volunteering" component={Volunteering} />
       </Switch>
     </Router>
   );
