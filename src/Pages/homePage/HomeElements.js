@@ -12,12 +12,12 @@ export const HomeContainer = styled.div`
 
 export const HeroImg = styled.img`
   display: flex;
-  margin-left: 80px;
+  margin: 50px 0 0 200px;
 
   height: 400px;
 
   @media screen and (max-width: 768px) {
-    margin-left: 150px;
+    margin: 24px 0 0 135px;
 
     height: 300px;
   }
@@ -33,5 +33,21 @@ export const HeroImg = styled.img`
 
 export const HeroText = styled.h1`
   display: flex;
-  justify-content: center;
+  margin: 150px 0 0 50px;
+  font-size: 20px;
+
+  height: 400px;
+
+  @media screen and (max-width: 768px) {
+    margin: 24px 0 0 135px;
+    height: 300px;
+  }
+  @media screen and (max-width: 450px) {
+    margin-left: 80px;
+    height: 300px;
+  }
+  @media screen and (max-width: 350px) {
+    margin-left: 40px;
+    height: 300px;
+  } ;
 `;

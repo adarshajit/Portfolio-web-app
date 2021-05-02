@@ -1,12 +1,11 @@
 import React from "react";
+
 import {
   SidebarContainer,
   Icon,
   CloseIcon,
   SidebarWrapper,
-  SidebarLink,
   SidebarRoute,
-  SideBtnWrap,
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -16,24 +15,19 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
-        <SidebarLink to="/" onClick={toggle}>
-          Home
-        </SidebarLink>
-        <SidebarLink to="/about" onClick={toggle}>
-          About
-        </SidebarLink>
-        <SidebarLink to="/projects" onClick={toggle}>
-          Projects
-        </SidebarLink>
-        <SidebarLink to="/volunteering" onClick={toggle}>
-          Volunteering
-        </SidebarLink>
-      </SidebarWrapper>
-      <SideBtnWrap>
         <SidebarRoute to="/" onClick={toggle}>
+          Home
+        </SidebarRoute>
+        <SidebarRoute to="about" onClick={toggle}>
+          About
+        </SidebarRoute>
+        <SidebarRoute to="projects" onClick={toggle}>
+          Projects
+        </SidebarRoute>
+        <SidebarRoute to="contact" onClick={toggle}>
           Contact Me
         </SidebarRoute>
-      </SideBtnWrap>
+      </SidebarWrapper>
     </SidebarContainer>
   );
 };

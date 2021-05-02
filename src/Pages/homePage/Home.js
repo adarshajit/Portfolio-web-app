@@ -8,7 +8,7 @@ const Home = () => {
       <HomeContainer>
         <HeroImg src={Avatar} />
 
-        <HeroText>world</HeroText>
+        <HeroText>Hey There! Welcome to my space in the web.</HeroText>
       </HomeContainer>
     </>
   );
