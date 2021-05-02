@@ -1,14 +1,29 @@
 import React from "react";
-import { HomeContainer, HeroImg, HeroText } from "./HomeElements";
+import {
+  HomeContainer,
+  HeroImg,
+  HeroText,
+  TextInfo,
+  TextContainer,
+  AvatarContainer,
+} from "./HomeElements";
 import Avatar from "../../Assets/doodle.png";
 
 const Home = () => {
   return (
     <>
       <HomeContainer>
-        <HeroImg src={Avatar} />
+        <AvatarContainer>
+          <HeroImg src={Avatar} />
+        </AvatarContainer>
 
-        <HeroText>Hey There! Welcome to my space in the web.</HeroText>
+        <TextContainer>
+          <HeroText>Hey There! 👋</HeroText>
+          <TextInfo>
+            Welcome to my space in the web. Thanks for coming by. Here you can
+            learn about my journey so far.
+          </TextInfo>
+        </TextContainer>
       </HomeContainer>
     </>
   );

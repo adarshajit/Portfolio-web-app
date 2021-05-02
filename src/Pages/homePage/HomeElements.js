@@ -4,50 +4,52 @@ export const HomeContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  height: 400px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     grid-template-columns: 1fr;
   } ;
 `;
 
-export const HeroImg = styled.img`
+export const AvatarContainer = styled.div`
   display: flex;
-  margin: 50px 0 0 200px;
-
+  justify-content: center;
+  padding: 80px;
   height: 400px;
 
   @media screen and (max-width: 768px) {
-    margin: 24px 0 0 135px;
+    padding: 20px 0 0 50px;
+  }
 
-    height: 300px;
-  }
   @media screen and (max-width: 450px) {
-    margin-left: 80px;
-    height: 300px;
+    padding: 20px 0 0 90px;
   }
-  @media screen and (max-width: 350px) {
-    margin-left: 40px;
-    height: 300px;
-  } ;
+`;
+
+export const HeroImg = styled.img`
+  align-items: center;
+  height: 350px;
+
+  @media screen and (max-width: 768px) {
+    align-items: center;
+  }
+`;
+
+export const TextContainer = styled.div`
+  padding: 150px;
+  height: 400px;
+
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+  }
 `;
 
 export const HeroText = styled.h1`
   display: flex;
-  margin: 150px 0 0 50px;
-  font-size: 20px;
+  font-size: 35px;
+`;
 
-  height: 400px;
-
-  @media screen and (max-width: 768px) {
-    margin: 24px 0 0 135px;
-    height: 300px;
-  }
-  @media screen and (max-width: 450px) {
-    margin-left: 80px;
-    height: 300px;
-  }
-  @media screen and (max-width: 350px) {
-    margin-left: 40px;
-    height: 300px;
-  } ;
+export const TextInfo = styled.p`
+  display: flex;
+  font-size: 18px;
 `;
