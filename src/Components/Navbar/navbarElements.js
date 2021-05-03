@@ -13,18 +13,22 @@ export const Nav = styled.nav`
 export const NavText = styled.span`
   padding-left: 7px;
 `;
-export const H1 = styled.h1`
-  color: #000;
+
+export const LogoContainer = styled.div`
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  margin-top: 12px;
 
   @media screen and (max-width: 768px) {
-    margin-top: 12px;
+    justify-content: left;
+  }
+`;
+export const Logo = styled.img`
+  align-self: center;
+  padding: 0 1rem;
+  width: 100px;
+
+  @media screen and (max-width: 768px) {
+    width: 90px;
   }
 `;
 

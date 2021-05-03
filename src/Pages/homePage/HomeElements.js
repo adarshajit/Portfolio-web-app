@@ -4,7 +4,7 @@ export const HomeContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  height: 400px;
+  height: 650px;
 
   @media screen and (max-width: 767px) {
     grid-template-columns: 1fr;

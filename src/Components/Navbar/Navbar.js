@@ -5,8 +5,9 @@ import {
   NavLink,
   NavMenu,
   NavBtn,
-  H1,
+  Logo,
   NavText,
+  LogoContainer,
 } from "./navbarElements";
 
 import { IoHomeSharp as HomeIconFill } from "react-icons/io5";
@@ -14,10 +15,13 @@ import { BiFace as AboutIcon } from "react-icons/bi";
 import { FaSuitcase as ProjectIcon } from "react-icons/fa";
 import { FiMail as MailIcon } from "react-icons/fi";
 import { IconContext } from "react-icons/lib";
+import logo from "../../Assets/logo.png";
 const Navbar = ({ toggle }) => {
   return (
     <>
-      <H1>Logo</H1>
+      <LogoContainer>
+        <Logo src={logo} />
+      </LogoContainer>
       <Nav>
         <Bars onClick={toggle} />
         <NavMenu>

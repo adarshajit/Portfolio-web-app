@@ -10,6 +10,7 @@ import {
   ButtonContainer,
 } from "./HomeElements";
 import Avatar from "../../Assets/doodle.png";
+import Tech from "../../Pages/TechSection/Tech";
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
           </ButtonContainer>
         </TextContainer>
       </HomeContainer>
+      <Tech />
     </>
   );
 };
