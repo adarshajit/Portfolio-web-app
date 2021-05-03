@@ -29,7 +29,7 @@ export const H1 = styled.h1`
 `;
 
 export const NavLink = styled(Link)`
-  color: #000;
+  color: #737373;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -37,6 +37,11 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   font-size: 18px;
+
+  &:hover {
+    color: #000;
+    transition: all 0.3s ease-in-out;
+  }
 
   &.active {
     color: #7c4dff;
@@ -75,6 +80,7 @@ export const NavBtn = styled.nav`
   margin-top: 20px;
   justify-content: center;
   right: 3rem;
+
   @media screen and (max-width: 768px) {
     display: none;
   }

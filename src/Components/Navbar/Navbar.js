@@ -12,7 +12,8 @@ import {
 import { IoHomeSharp as HomeIconFill } from "react-icons/io5";
 import { BiFace as AboutIcon } from "react-icons/bi";
 import { FaSuitcase as ProjectIcon } from "react-icons/fa";
-
+import { FiMail as MailIcon } from "react-icons/fi";
+import { IconContext } from "react-icons/lib";
 const Navbar = ({ toggle }) => {
   return (
     <>
@@ -34,9 +35,11 @@ const Navbar = ({ toggle }) => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavLink to="/y" activeStyle>
-            Contact Me
-          </NavLink>
+          <IconContext.Provider value={{ size: "24px" }}>
+            <NavLink to="/y" activeStyle>
+              <MailIcon />
+            </NavLink>
+          </IconContext.Provider>
         </NavBtn>
       </Nav>
     </>

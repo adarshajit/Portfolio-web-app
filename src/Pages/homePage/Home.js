@@ -6,6 +6,8 @@ import {
   TextInfo,
   TextContainer,
   AvatarContainer,
+  Button,
+  ButtonContainer,
 } from "./HomeElements";
 import Avatar from "../../Assets/doodle.png";
 
@@ -23,6 +25,10 @@ const Home = () => {
             Welcome to my space in the web. Thanks for coming by. Here you can
             learn about my journey so far.
           </TextInfo>
+          <ButtonContainer>
+            <Button>Let's Talk</Button>
+            <Button>My Work</Button>
+          </ButtonContainer>
         </TextContainer>
       </HomeContainer>
     </>

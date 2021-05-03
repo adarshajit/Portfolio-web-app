@@ -22,7 +22,7 @@ export const AvatarContainer = styled.div`
   }
 
   @media screen and (max-width: 450px) {
-    padding: 20px 0 0 90px;
+    padding: 20px 0 0 20px;
   }
 `;
 
@@ -45,11 +45,32 @@ export const TextContainer = styled.div`
 `;
 
 export const HeroText = styled.h1`
-  display: flex;
   font-size: 35px;
 `;
 
 export const TextInfo = styled.p`
-  display: flex;
   font-size: 18px;
+`;
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: left;
+`;
+
+export const Button = styled.button`
+  margin: 24px 24px 0 0;
+  width: 140px;
+  height: 57px;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  border-radius: 32px;
+  background-color: #7c4dff;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #641eff;
+    cursor: pointer;
+  }
 `;
