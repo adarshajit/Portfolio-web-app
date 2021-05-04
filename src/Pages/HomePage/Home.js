@@ -10,7 +10,7 @@ import {
   ButtonContainer,
 } from "./HomeElements";
 import Avatar from "../../Assets/doodle.png";
-import Tech from "../../Pages/TechSection/Tech";
+import Tech from "../HomePage/HomeSections/TechSection/Tech";
 
 const Home = () => {
   return (

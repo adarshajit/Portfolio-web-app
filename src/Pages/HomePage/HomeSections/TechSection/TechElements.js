@@ -47,9 +47,19 @@ export const SkillContainer = styled.div`
 export const SkillIconWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 40px;
+  grid-gap: 60px;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+`;
+
+export const Icon = styled.div`
+  color: #5c5c5c;
+  cursor: pointer;
+  &:hover {
+    color: #000;
+    transition: all 0.3s ease-in-out;
   }
 `;
