@@ -6,18 +6,18 @@ export const TechContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+  top: 230px;
 
   @media screen and (max-width: 768px) {
     display: grid;
     place-items: center;
-    top: 230px;
   }
 `;
 
 export const H1 = styled.h1`
   display: flex;
   justify-content: center;
-  font-size: 40px;
+  font-size: 50px;
   align-items: center;
   margin: 0 0 15px 0;
 
@@ -31,6 +31,7 @@ export const P = styled.p`
   font-size: 20px;
   @media screen and (max-width: 768px) {
     padding: 0 10px 0 17px;
+    text-align: center;
   }
 `;
 
@@ -59,7 +60,7 @@ export const Icon = styled.div`
   color: #5c5c5c;
   cursor: pointer;
   &:hover {
-    color: #000;
+    color: #7c4dff;
     transition: all 0.3s ease-in-out;
   }
 `;

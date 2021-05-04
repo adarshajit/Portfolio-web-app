@@ -18,7 +18,7 @@ const Tech = () => {
         <P>Here are the tools and technologies that I use to get stuff done.</P>
 
         <SkillContainer>
-          <IconContext.Provider value={{ size: "55px" }}>
+          <IconContext.Provider value={{ size: "65px" }}>
             <SkillIconWrapper>
               <Icon>
                 <SkillIcon.DiPython />
