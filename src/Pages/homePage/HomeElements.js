@@ -45,7 +45,7 @@ export const TextContainer = styled.div`
 `;
 
 export const HeroText = styled.h1`
-  font-size: 35px;
+  font-size: 40px;
 `;
 
 export const TextInfo = styled.p`
