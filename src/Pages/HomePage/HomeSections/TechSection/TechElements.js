@@ -28,10 +28,12 @@ export const H1 = styled.h1`
 export const P = styled.p`
   display: flex;
   justify-content: center;
-  font-size: 20px;
+  font-size: 24px;
+  color: #5e5e5e;
   @media screen and (max-width: 768px) {
     padding: 0 10px 0 17px;
     text-align: center;
+    font-size: 18px;
   }
 `;
 

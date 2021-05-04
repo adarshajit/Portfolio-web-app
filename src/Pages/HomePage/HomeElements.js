@@ -55,7 +55,7 @@ export const TextInfo = styled.p`
 
 export const ButtonContainer = styled.div`
   display: flex;
-  justify-content: left;
+  flex-direction: row;
 `;
 
 export const Button = styled.button`
