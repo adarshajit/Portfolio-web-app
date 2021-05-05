@@ -36,6 +36,7 @@ export const P1 = styled.p`
   font-size: 24px;
   color: #fff;
   padding: 20px 0 28px 0;
+  font-weight: 600;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #000;
 `;
@@ -44,6 +45,7 @@ export const P2 = styled.p`
   font-size: 18px;
   color: #fff;
   padding-bottom: 20px;
+  font-weight: 500;
 `;
 
 export const EducationWrapper = styled.div`

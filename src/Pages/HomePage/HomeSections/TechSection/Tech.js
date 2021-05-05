@@ -9,6 +9,7 @@ import {
   Img,
 } from "./TechElements";
 import * as SkillIcon from "react-icons/di";
+import { CgFigma } from "react-icons/cg";
 import { IconContext } from "react-icons/lib";
 import skillImg from "../../../../Assets/skillImg.svg";
 const Tech = () => {
@@ -25,13 +26,13 @@ const Tech = () => {
                 <SkillIcon.DiPython />
               </Icon>
               <Icon>
-                <SkillIcon.DiHtml5 />
-              </Icon>
-              <Icon>
                 <SkillIcon.DiJavascript1 />
               </Icon>
               <Icon>
-                <SkillIcon.DiIllustrator />
+                <SkillIcon.DiGit />
+              </Icon>
+              <Icon>
+                <SkillIcon.DiHtml5 />
               </Icon>
               <Icon>
                 <SkillIcon.DiCss3 />
@@ -40,19 +41,24 @@ const Tech = () => {
                 <SkillIcon.DiBootstrap />
               </Icon>
               <Icon>
-                <SkillIcon.DiMongodb />
-              </Icon>
-              <Icon>
                 <SkillIcon.DiReact />
               </Icon>
               <Icon>
-                <SkillIcon.DiGit />
+                <SkillIcon.DiNodejsSmall />
               </Icon>
+              <Icon>
+                <SkillIcon.DiMongodb />
+              </Icon>
+              <Icon>
+                <SkillIcon.DiIllustrator />
+              </Icon>
+
               <Icon>
                 <SkillIcon.DiPhotoshop />
               </Icon>
+
               <Icon>
-                <SkillIcon.DiNodejsSmall />
+                <CgFigma />
               </Icon>
             </SkillIconWrapper>
           </IconContext.Provider>

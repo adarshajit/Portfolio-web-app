@@ -58,6 +58,7 @@ export const P1 = styled.p`
   display: flex;
   font-size: 40px;
   color: #fff;
+  font-weight: 600;
 
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
@@ -70,6 +71,7 @@ export const P2 = styled.p`
   align-self: center;
   font-size: 19px;
   color: #fff;
+  font-weight: 600;
 `;
 
 export const Button = styled.button`
@@ -77,6 +79,7 @@ export const Button = styled.button`
   height: 57px;
   font-size: 17px;
   color: #000;
+  font-weight: 600;
   justify-content: center;
   align-self: center;
   background-color: #fff;
@@ -116,6 +119,7 @@ export const P3 = styled.p`
   color: #5a5a5a;
   font-size: 24px;
   display: grid;
+  font-weight: 500;
   place-items: center;
   margin: -50px 0 0 0;
 `;
@@ -141,4 +145,11 @@ export const SocialIcon = styled.div`
     color: #7c4dff;
     transition: all 0.3s ease-in-out;
   }
+`;
+
+export const P = styled.p`
+  padding: 32px;
+  font-weight: 500;
+  margin-top: 40px;
+  font-size: 18px;
 `;

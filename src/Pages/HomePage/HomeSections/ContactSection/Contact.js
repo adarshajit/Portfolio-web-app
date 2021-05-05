@@ -7,6 +7,7 @@ import {
   P1,
   P2,
   P3,
+  P,
   Button,
   MailIcon,
   ButtonWrapper,
@@ -57,6 +58,8 @@ const Contact = () => {
             </IconContext.Provider>
           </IconWrapper>
         </ContactInfo>
+
+        <P>© 2021 Adarsh Ajit</P>
       </ContactContainer>
     </>
   );

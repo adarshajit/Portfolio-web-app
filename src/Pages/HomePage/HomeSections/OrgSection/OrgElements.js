@@ -33,8 +33,9 @@ export const P = styled.p`
   font-size: 24px;
   color: #5e5e5e;
   margin: 20px 0 0 0;
+  font-weight: 500;
   @media screen and (max-width: 768px) {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding: 0 5px 0 5px;
   }
@@ -69,6 +70,7 @@ export const Button = styled.button`
   text-decoration: none;
   border-radius: 32px;
   border: 3px solid #000;
+  font-weight: 600;
 
   &:hover {
     transition: all 0.3s ease-in-out;
@@ -98,9 +100,15 @@ export const P1 = styled.p`
   text-align: center;
   font-size: 28px;
   margin: 0 0 10px 10px;
+  font-weight: 600;
 `;
 
 export const P2 = styled.p`
-  font-size: 16px;
+  font-size: 18px;
   margin: 0 20px 0 20px;
+  font-weight: 500;
+
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
 `;

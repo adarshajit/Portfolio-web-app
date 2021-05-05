@@ -6,7 +6,10 @@ import {
   CloseIcon,
   SidebarWrapper,
   SidebarRoute,
+  Logo,
 } from "./SidebarElements";
+
+import MyLogo from "../../Assets/logo.png";
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -15,6 +18,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
+        <Logo src={MyLogo} />
         <SidebarRoute to="/" onClick={toggle}>
           Home
         </SidebarRoute>

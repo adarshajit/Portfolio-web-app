@@ -46,11 +46,18 @@ export const TextContainer = styled.div`
 `;
 
 export const HeroText = styled.h1`
-  font-size: 40px;
+  font-size: 46px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 `;
 
 export const TextInfo = styled.p`
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: 500;
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
 `;
 
 export const ButtonContainer = styled.div`
@@ -69,6 +76,7 @@ export const Button = styled.button`
   border-radius: 32px;
   background-color: #7c4dff;
   border: 3px solid #000;
+  font-weight: 600;
 
   &:hover {
     transition: all 0.3s ease-in-out;

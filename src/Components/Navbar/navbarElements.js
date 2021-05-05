@@ -12,6 +12,7 @@ export const Nav = styled.nav`
 `;
 export const NavText = styled.span`
   padding-left: 7px;
+  font-weight: 600;
 `;
 
 export const LogoContainer = styled.div`
@@ -86,6 +87,7 @@ export const NavBtn = styled.nav`
   align-items: center;
   margin-right: -24px;
   margin-top: 20px;
+
   justify-content: center;
   right: 3rem;
 

@@ -33,28 +33,28 @@ export const Icon = styled.div`
 
 export const SidebarWrapper = styled.div`
   color: #000;
+  display: flex;
+  flex-direction: column;
 `;
 
-export const SidebarMenu = styled.ul`
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 80px);
-  text-align: center;
-  @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
-  }
+export const Logo = styled.img`
+  align-self: center;
+  width: 100px;
+  position: absolute;
+  top: 70px;
 `;
 
 export const SidebarRoute = styled(LinkRouter)`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
   text-decoration: none;
   color: #000;
+  font-weight: 600;
   cursor: pointer;
   &:hover {
     color: #7c4dff;

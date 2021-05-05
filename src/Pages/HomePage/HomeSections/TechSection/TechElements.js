@@ -34,10 +34,11 @@ export const P = styled.p`
   justify-content: center;
   font-size: 24px;
   color: #5e5e5e;
+  font-weight: 500;
   @media screen and (max-width: 768px) {
     padding: 0 10px 0 17px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
 `;
 
