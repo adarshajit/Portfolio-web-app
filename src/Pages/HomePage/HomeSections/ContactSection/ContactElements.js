@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { FiMail } from "react-icons/fi";
 
 export const ContactContainer = styled.div`
@@ -44,6 +45,7 @@ export const ContactBox = styled.div`
   background-color: #7c4dff;
   border-radius: 10px;
   align-self: center;
+  margin: 0 0 100px 0;
 
   @media screen and (max-width: 768px) {
     width: 350px;
@@ -84,7 +86,6 @@ export const Button = styled.button`
 
   &:hover {
     transition: all 0.3s ease-in-out;
-    background-color: #f7f0ff;
     border: 4px solid #9f40ff;
     cursor: pointer;
   }
@@ -99,5 +100,45 @@ export const ButtonWrapper = styled.div`
 
 export const MailIcon = styled(FiMail)`
   size: 24px;
-  margin: 0 0 0 5px;
+  margin: 5px 0 -2px 9px;
+`;
+
+export const Icon = styled.div`
+  color: #000;
+  cursor: pointer;
+  &:hover {
+    color: #7c4dff;
+    transition: all 0.3s ease-in-out;
+  }
+`;
+
+export const P3 = styled.p`
+  color: #5a5a5a;
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  margin: -50px 0 0 0;
+`;
+
+export const IconWrapper = styled.div`
+  display: grid;
+  place-items: center;
+  margin: 50px 0 0 0;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-gap: 70px;
+  }
+`;
+
+export const SocialIcon = styled.div`
+  color: #000;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    color: #7c4dff;
+    transition: all 0.3s ease-in-out;
+  }
 `;
