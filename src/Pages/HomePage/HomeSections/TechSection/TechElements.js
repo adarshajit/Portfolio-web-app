@@ -38,12 +38,14 @@ export const P = styled.p`
 `;
 
 export const SkillContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  margin: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 230px;
+  margin: 90px 0 90px 0;
 
   @media screen and (max-width: 768px) {
     margin: 70px 0 0 0;
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -55,6 +57,15 @@ export const SkillIconWrapper = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+  }
+`;
+
+export const Img = styled.img`
+  height: 350px;
+  width: 350px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;
 

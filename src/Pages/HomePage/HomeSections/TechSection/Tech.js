@@ -6,10 +6,11 @@ import {
   SkillContainer,
   SkillIconWrapper,
   Icon,
+  Img,
 } from "./TechElements";
 import * as SkillIcon from "react-icons/di";
 import { IconContext } from "react-icons/lib";
-
+import skillImg from "../../../../Assets/skillImg.svg";
 const Tech = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const Tech = () => {
         <P>Here are the tools and technologies that I use to get stuff done.</P>
 
         <SkillContainer>
-          <IconContext.Provider value={{ size: "65px" }}>
+          <IconContext.Provider value={{ size: "57px" }}>
             <SkillIconWrapper>
               <Icon>
                 <SkillIcon.DiPython />
@@ -55,6 +56,7 @@ const Tech = () => {
               </Icon>
             </SkillIconWrapper>
           </IconContext.Provider>
+          <Img src={skillImg} />
         </SkillContainer>
       </TechContainer>
     </>

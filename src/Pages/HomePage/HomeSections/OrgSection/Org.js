@@ -31,7 +31,7 @@ const Organisations = () => {
               mobile application development,native apps and backend
               development.
             </P2>
-            <Button>Learn more</Button>
+            <Button>My Works</Button>
           </TextContainer>
         </BoxContainer>
         <BoxContainer>
@@ -44,7 +44,7 @@ const Organisations = () => {
               Linux operating system, kernel programming and Web application
               development.
             </P2>
-            <Button>Learn more</Button>
+            <Button>My Works</Button>
           </TextContainer>
         </BoxContainer>
       </OrgContainer>

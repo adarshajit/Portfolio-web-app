@@ -55,7 +55,7 @@ export const BoxContainer = styled.div`
 
 export const Button = styled.button`
   margin: 24px 24px 0 0;
-  width: 140px;
+  width: 180px;
   height: 57px;
   font-size: 17px;
   color: #fff;
