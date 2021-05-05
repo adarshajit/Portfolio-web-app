@@ -13,6 +13,7 @@ import Avatar from "../../Assets/doodle.png";
 import Tech from "../HomePage/HomeSections/TechSection/Tech";
 import Education from "../HomePage/HomeSections/EducationSection/Education";
 import Organisations from "../HomePage/HomeSections/OrgSection/Org";
+import Contact from "./HomeSections/ContactSection/Contact";
 const Home = () => {
   return (
     <>
@@ -36,6 +37,7 @@ const Home = () => {
       <Tech />
       <Education />
       <Organisations />
+      <Contact />
     </>
   );
 };

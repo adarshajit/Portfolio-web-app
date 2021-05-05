@@ -8,6 +8,10 @@ export const TechContainer = styled.div`
   position: relative;
   top: 230px;
 
+  @media screen and (max-width: 300px) {
+    margin: 0 0 0 80px;
+  }
+
   @media screen and (max-width: 768px) {
     display: grid;
     place-items: center;

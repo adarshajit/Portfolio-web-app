@@ -4,6 +4,9 @@ export const EducationContainer = styled.div`
   position: relative;
   top: 400px;
   height: 650px;
+  @media screen and (max-width: 300px) {
+    margin: 0 0 0 80px;
+  }
 `;
 
 export const EducationInfo = styled.div`
@@ -17,6 +20,9 @@ export const H1 = styled.h1`
   display: grid;
   place-items: center;
   margin: 0 0 60px 0;
+  @media screen and (max-width: 300px) {
+    font-size: 40px;
+  }
 `;
 
 export const H2 = styled.h2`
@@ -54,6 +60,7 @@ export const EducationCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 4px solid #000;
   width: 500px;
   height: 250px;
   border-radius: 10px;

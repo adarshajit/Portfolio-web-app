@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
-import { RiBarChartHorizontalLine } from "react-icons/ri";
+import { RiBarChartHorizontalLine as BarLine } from "react-icons/ri";
 
 export const Nav = styled.nav`
   background: #fff;
@@ -52,7 +52,7 @@ export const NavLink = styled(Link)`
   }
 `;
 
-export const Bars = styled(RiBarChartHorizontalLine)`
+export const Bars = styled(BarLine)`
   display: none;
   color: #000;
 
@@ -64,6 +64,10 @@ export const Bars = styled(RiBarChartHorizontalLine)`
     transform: translate(-100%, 75%);
     font-size: 1.8rem;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 300px) {
+    right: -80px;
   }
 `;
 

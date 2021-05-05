@@ -12,15 +12,18 @@ export const OrgContainer = styled.div`
     top: 800px;
     margin: 0 5px 0 5px;
   }
+  @media screen and (max-width: 300px) {
+    margin: 0 0 0 80px;
+  }
 `;
 
 export const H1 = styled.h1`
   display: grid;
   place-items: center;
-  font-size: 40px;
+  font-size: 50px;
 
-  @media screen and (min-width: 768px) {
-    font-size: 50px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
   }
 `;
 
@@ -65,6 +68,7 @@ export const Button = styled.button`
   border: none;
   text-decoration: none;
   border-radius: 32px;
+  border: 3px solid #000;
 
   &:hover {
     transition: all 0.3s ease-in-out;

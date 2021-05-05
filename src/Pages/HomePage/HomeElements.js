@@ -68,6 +68,7 @@ export const Button = styled.button`
   text-decoration: none;
   border-radius: 32px;
   background-color: #7c4dff;
+  border: 3px solid #000;
 
   &:hover {
     transition: all 0.3s ease-in-out;
