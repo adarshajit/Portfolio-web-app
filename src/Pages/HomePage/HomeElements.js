@@ -9,7 +9,7 @@ export const HomeContainer = styled.div`
   @media screen and (max-width: 767px) {
     grid-template-columns: 1fr;
     height: 580px;
-  } ;
+  }
 `;
 
 export const AvatarContainer = styled.div`
@@ -33,6 +33,10 @@ export const HeroImg = styled.img`
 
   @media screen and (max-width: 768px) {
     align-items: center;
+  }
+
+  @media screen and (max-width: 350px) {
+    padding: 20px 0 0 20px;
   }
 `;
 

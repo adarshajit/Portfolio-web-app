@@ -67,6 +67,9 @@ export const Bars = styled(BarLine)`
     cursor: pointer;
   }
 
+  @media screen and (max-width: 768px) {
+    right: -3px;
+  }
   @media screen and (max-width: 300px) {
     right: -80px;
   }
