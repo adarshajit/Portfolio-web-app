@@ -70,9 +70,6 @@ export const Bars = styled(BarLine)`
   @media screen and (max-width: 768px) {
     right: -3px;
   }
-  @media screen and (max-width: 300px) {
-    right: -80px;
-  }
 `;
 
 export const NavMenu = styled.div`

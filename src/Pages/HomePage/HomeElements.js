@@ -22,8 +22,10 @@ export const AvatarContainer = styled.div`
     padding: 20px 0 0 50px;
   }
 
-  @media screen and (max-width: 450px) {
-    padding: 20px 0 0 20px;
+  @media screen and (max-width: 350px) {
+    padding: 0 14px 0 14px;
+    max-width: 270px;
+    max-height: 270px;
   }
 `;
 
@@ -46,6 +48,13 @@ export const TextContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 20px;
+  }
+
+  @media screen and (max-width: 350px) {
+    padding: 0 14px 0 14px;
+    margin: 110px 0 0 0;
+    max-width: 270px;
+    max-height: 270px;
   }
 `;
 

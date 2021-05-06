@@ -12,8 +12,13 @@ export const OrgContainer = styled.div`
     top: 800px;
     margin: 0 5px 0 5px;
   }
-  @media screen and (max-width: 300px) {
-    margin: 0 0 0 80px;
+
+  @media screen and (max-width: 350px) {
+    padding: 0 14px 0 14px;
+    position: relative;
+    top: 120rem;
+    max-width: 270px;
+    max-height: 270px;
   }
 `;
 
@@ -24,6 +29,10 @@ export const H1 = styled.h1`
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
+  }
+
+  @media screen and (max-width: 350px) {
+    font-size: 30px;
   }
 `;
 
@@ -53,7 +62,12 @@ export const BoxContainer = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     width: 350px;
-    height: 650px;
+    height: 680px;
+  }
+
+  @media screen and (max-width: 350px) {
+    padding: 0 14px 0 14px;
+    max-width: 270px;
   }
 `;
 
@@ -92,6 +106,12 @@ export const Img1 = styled.img`
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 350px) {
+    padding: 0 14px 0 14px;
+    max-width: 270px;
+    max-height: 270px;
+  }
 `;
 
 export const P1 = styled.p`
@@ -101,6 +121,10 @@ export const P1 = styled.p`
   font-size: 28px;
   margin: 0 0 10px 10px;
   font-weight: 600;
+
+  @media screen and (max-width: 350px) {
+    font-size: 24px;
+  }
 `;
 
 export const P2 = styled.p`
@@ -110,5 +134,9 @@ export const P2 = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 20px;
+  }
+
+  @media screen and (max-width: 350px) {
+    font-size: 15px;
   }
 `;

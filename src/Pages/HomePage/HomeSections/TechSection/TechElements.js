@@ -8,13 +8,16 @@ export const TechContainer = styled.div`
   position: relative;
   top: 230px;
 
-  @media screen and (max-width: 300px) {
-    margin: 0 0 0 80px;
-  }
-
   @media screen and (max-width: 768px) {
     display: grid;
     place-items: center;
+  }
+
+  @media screen and (max-width: 350px) {
+    padding: 0 14px 0 14px;
+    margin: 110px 0 0 0;
+    max-width: 270px;
+    max-height: 270px;
   }
 `;
 
@@ -27,6 +30,10 @@ export const H1 = styled.h1`
 
   @media screen and (max-width: 768px) {
     margin: 0px 5px 20px 5px;
+  }
+
+  @media screen and (max-width: 350px) {
+    font-size: 40px;
   }
 `;
 export const P = styled.p`
