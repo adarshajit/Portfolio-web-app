@@ -30,7 +30,7 @@ import {
 import MacIcon from "../../Assets/mac.svg";
 import Profile from "../../Assets/profile.jpg";
 import Logo from "../../Assets/logo.png";
-
+import Footer from "../../Components/Footer/Footer";
 export const About = () => {
   const colorsList = ["#000", "#5a5a5a", "#7c4dff"];
   return (
@@ -120,6 +120,8 @@ export const About = () => {
             </Color>
           </ColorWrapper>
         </AboutText>
+
+        <Footer />
       </AboutContainer>
     </>
   );

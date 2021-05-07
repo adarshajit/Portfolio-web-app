@@ -205,6 +205,7 @@ export const ColorWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 80px;
   place-items: center;
+  margin-bottom: 100px;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;

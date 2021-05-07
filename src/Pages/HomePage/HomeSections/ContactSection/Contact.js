@@ -7,7 +7,6 @@ import {
   P1,
   P2,
   P3,
-  P,
   Button,
   MailIcon,
   ButtonWrapper,
@@ -21,6 +20,7 @@ import { AiFillGithub as GitIcon } from "react-icons/ai";
 import { AiFillLinkedin as LinkedinIcon } from "react-icons/ai";
 import { FaTwitter as TwitterIcon } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import Footer from "../../../../Components/Footer/Footer";
 const Contact = () => {
   return (
     <>
@@ -59,7 +59,7 @@ const Contact = () => {
           </IconWrapper>
         </ContactInfo>
 
-        <P>© 2021 Adarsh Ajit</P>
+        <Footer />
       </ContactContainer>
     </>
   );
