@@ -10,6 +10,10 @@ export const HomeContainer = styled.div`
     grid-template-columns: 1fr;
     height: 580px;
   }
+
+  @media screen and (max-width: 350px) {
+    padding: 0 0 0 28px;
+  }
 `;
 
 export const AvatarContainer = styled.div`

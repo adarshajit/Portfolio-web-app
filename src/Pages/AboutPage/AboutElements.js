@@ -15,6 +15,8 @@ export const AboutSection = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     margin: 0 0 200px 0;
+    grid-gap: 5px;
+    padding: 5px;
   }
 `;
 
@@ -88,11 +90,6 @@ export const ProfileImg = styled.img`
   }
 `;
 
-export const P2 = styled.p`
-  font-size: 18px;
-  font-weight: 400;
-`;
-
 export const ImgWrapper = styled.div`
   display: flex;
   justify-content: center;
@@ -103,4 +100,90 @@ export const ImgWrapper = styled.div`
     max-width: 270px;
     max-height: 270px;
   }
+`;
+
+export const SubHeading = styled.p`
+  font-weight: 600;
+  font-size: 50px;
+`;
+
+export const P2 = styled.p`
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 14px 0 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 17px;
+    padding: 0 10px 0 10px;
+    text-align: left;
+  }
+`;
+
+export const ImgLogo = styled.img`
+  width: 150px;
+  height: 200px;
+  align-self: center;
+
+  @media screen and (max-width: 768px) {
+    width: 150px;
+    height: 200px;
+  }
+`;
+
+export const H1 = styled.h1`
+  font-size: 140px;
+`;
+
+export const FontWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 80px 0 0 10px;
+`;
+
+export const P3 = styled.p`
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+`;
+
+export const FontGrid = styled.div`
+  display: grid;
+  grid-template-columns: 120px 120px;
+`;
+
+export const P4 = styled.p`
+  font-size: 16.5px;
+  max-width: 300px;
+`;
+
+export const Upper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const Lower = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const Nums = styled.p`
+  margin: 10px 0 0 0;
+  font-weight: 600;
+  font-size: 20px;
+`;
+
+export const FontText = styled.p`
+  font-weight: 600;
+  font-size: 20px;
+`;
+
+export const FontHead = styled.p`
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0 0 10px 0;
+`;
+
+export const TypeFace = styled.p`
+  font-weight: 600;
+  font-size: 200px;
 `;

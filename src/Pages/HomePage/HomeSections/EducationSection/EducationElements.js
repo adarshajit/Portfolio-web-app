@@ -5,8 +5,8 @@ export const EducationContainer = styled.div`
   top: 400px;
   height: 650px;
 
-  @media screen and (max-width: 350px) {
-    padding: 0 14px 0 14px;
+  @media screen and (max-width: 330px) {
+    padding: 0 0 0 24px;
     top: 700px;
     max-width: 270px;
     max-height: 270px;
@@ -93,7 +93,6 @@ export const EducationCard = styled.div`
   @media screen and (max-width: 768px) {
     width: 350px;
     height: 340px;
-    padding: 0;
   }
 
   @media screen and (max-width: 350px) {

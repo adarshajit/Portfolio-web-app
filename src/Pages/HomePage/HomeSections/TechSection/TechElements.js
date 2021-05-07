@@ -14,7 +14,7 @@ export const TechContainer = styled.div`
   }
 
   @media screen and (max-width: 350px) {
-    padding: 0 14px 0 14px;
+    padding: 0 0 0 38px;
     margin: 110px 0 0 0;
     max-width: 270px;
     max-height: 270px;
