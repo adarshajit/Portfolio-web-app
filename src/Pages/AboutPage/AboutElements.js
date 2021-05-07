@@ -103,6 +103,8 @@ export const ImgWrapper = styled.div`
 `;
 
 export const SubHeading = styled.p`
+  display: grid;
+  place-items: center;
   font-weight: 600;
   font-size: 50px;
 `;
@@ -186,4 +188,34 @@ export const FontHead = styled.p`
 export const TypeFace = styled.p`
   font-weight: 600;
   font-size: 200px;
+  color: #7c4dff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+
+  &:hover {
+    color: #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #7c4dff;
+    transition: all 0.3s ease-in-out;
+    cursor: ne-resize;
+  }
+`;
+
+export const ColorWrapper = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  place-items: center;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+`;
+
+export const Color = styled.div`
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 100px 0 0 0;
 `;
