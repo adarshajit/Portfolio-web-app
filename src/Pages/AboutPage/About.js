@@ -25,13 +25,14 @@ import {
   TypeFace,
   ColorWrapper,
   Color,
+  ColorText,
 } from "./AboutElements";
 import MacIcon from "../../Assets/mac.svg";
 import Profile from "../../Assets/profile.jpg";
 import Logo from "../../Assets/logo.png";
 
 export const About = () => {
-  const colorsList = ["#7c4dff", "#000", "#5a5a5a"];
+  const colorsList = ["#000", "#5a5a5a", "#7c4dff"];
   return (
     <>
       <AboutContainer>
@@ -108,9 +109,15 @@ export const About = () => {
         <AboutText>
           <SubHeading>Colors</SubHeading>
           <ColorWrapper>
-            <Color style={{ backgroundColor: colorsList[0] }}></Color>
-            <Color style={{ backgroundColor: colorsList[1] }}></Color>
-            <Color style={{ backgroundColor: colorsList[2] }}></Color>
+            <Color style={{ backgroundColor: colorsList[0] }}>
+              <ColorText>{colorsList[0]}</ColorText>
+            </Color>
+            <Color style={{ backgroundColor: colorsList[1] }}>
+              <ColorText>{colorsList[1]}</ColorText>
+            </Color>
+            <Color style={{ backgroundColor: colorsList[2] }}>
+              <ColorText>{colorsList[2]}</ColorText>
+            </Color>
           </ColorWrapper>
         </AboutText>
       </AboutContainer>
