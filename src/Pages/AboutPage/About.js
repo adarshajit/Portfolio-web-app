@@ -41,7 +41,7 @@ export const About = () => {
             <AboutText>
               <P>About Me</P>
               <P1>So who am I?</P1>
-              <P1>Here you can learn all about me!</P1>
+              <P1>Let me introduce myself...</P1>
             </AboutText>
             <ImgWrapper>
               <Img src={MacIcon} />

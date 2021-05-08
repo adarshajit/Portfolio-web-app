@@ -74,9 +74,14 @@ export const Img = styled.img`
 
 export const ProfileImg = styled.img`
   border-radius: 10px;
-  border: 5px solid #7c4dff;
+  border: 5px solid #000;
   align-items: center;
   height: 350px;
+
+  &:hover {
+    border: 5px solid #7c4dff;
+    transition: all 0.3s ease-in-out;
+  }
 
   @media screen and (max-width: 350px) {
     max-width: 300px;
