@@ -6,7 +6,7 @@ export const ProjectContainer = styled.div`
 `;
 
 export const H1 = styled.h1`
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 600;
   margin: 0 0 0 100px;
 
@@ -35,12 +35,12 @@ export const ProjectBox = styled.div`
   height: 350px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #5a5a5a;
   display: flex;
   flex-direction: column;
   align-self: center;
   grid-column: span 3;
   grid-row: span 5;
+  border: 3px solid #000;
 
   @media screen and (max-width: 360px) {
     width: 280px;

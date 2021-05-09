@@ -1,4 +1,5 @@
 import React from "react";
+import { Bounce } from "react-reveal";
 import {
   ProjectContainer,
   H1,
@@ -17,55 +18,58 @@ export const Projects = () => {
     {
       id: 1,
       name: "Depression Recogniser for twitter",
-      BgColor: "#7c4dff",
+      BgColor: "#FDD180",
     },
 
     {
       id: 2,
       name: "Covid-19 Awareness",
-      BgColor: "red",
+      BgColor: "#8D9FFF",
     },
 
     {
       id: 3,
       name: "ICEFOSS 2021",
-      BgColor: "#7c4dff",
+      BgColor: "#B8F7CA",
     },
     {
       id: 3,
       name: "Quotify",
-      BgColor: "#7c4dff",
+      BgColor: "#FA80AA",
     },
     {
       id: 5,
       name: "Technical Essay Assessor",
-      BgColor: "#7c4dff",
+      BgColor: "#FB8A80",
     },
 
     {
       id: 6,
       name: "CRUD Application",
-      BgColor: "#7c4dff",
+      BgColor: "#A7FFEB",
     },
   ];
   return (
     <>
-      <ProjectContainer>
-        <H1>Projects</H1>
-        <ProjectGrid>
-          {ProjectData.map((p) => {
-            return (
-              <ProjectBox style={{ backgroundColor: `${p.BgColor}` }}>
-                <P>{p.name}</P>
-                <Img />
-                <ButtonWrapper>
-                  <P1>Read More</P1>
-                </ButtonWrapper>
-              </ProjectBox>
-            );
-          })}
-        </ProjectGrid>
-      </ProjectContainer>
+      <Bounce top>
+        <ProjectContainer>
+          <H1>Projects</H1>
+
+          <ProjectGrid>
+            {ProjectData.map((p) => {
+              return (
+                <ProjectBox style={{ backgroundColor: `${p.BgColor}` }}>
+                  <P>{p.name}</P>
+                  <Img />
+                  <ButtonWrapper>
+                    <P1>Read More</P1>
+                  </ButtonWrapper>
+                </ProjectBox>
+              );
+            })}
+          </ProjectGrid>
+        </ProjectContainer>
+      </Bounce>
       <Footer />
     </>
   );
