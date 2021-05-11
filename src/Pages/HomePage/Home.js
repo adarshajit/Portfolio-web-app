@@ -33,6 +33,7 @@ const Home = () => {
             </TextInfo>
             <ButtonContainer>
               <Button>Let's Talk</Button>
+
               <Button>Resume</Button>
             </ButtonContainer>
           </TextContainer>

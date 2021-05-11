@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const ProjectContainer = styled.div`
   display: flex;
@@ -52,7 +53,7 @@ export const ProjectBox = styled.div`
 `;
 
 export const P = styled.p`
-  font-size: 24px;
+  font-size: 22px;
   padding: 12px 0 0 12px;
   font-weight: 600;
 `;
@@ -79,4 +80,9 @@ export const P1 = styled.p`
   font-size: 18px;
   padding: 5px 0 0 12px;
   font-weight: 500;
+`;
+
+export const LinkR = styled(Link)`
+  color: #000;
+  text-decoration: none;
 `;
