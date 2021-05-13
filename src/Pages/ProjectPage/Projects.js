@@ -22,10 +22,10 @@ export const Projects = () => {
           <H1>Projects</H1>
 
           <ProjectGrid>
-            {ProjectData.map((p) => {
+            {ProjectData.map((p, index) => {
               return (
                 <ProjectBox style={{ backgroundColor: `${p.BgColor}` }}>
-                  <LinkR to={p.to}>
+                  <LinkR to={`project/${index + 1}`}>
                     <P>{p.name}</P>
                     <Img />
                     <ButtonWrapper>
