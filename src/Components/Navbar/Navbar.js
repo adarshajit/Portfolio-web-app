@@ -38,6 +38,7 @@ const Navbar = ({ toggle }) => {
             <NavText>Projects</NavText>
           </NavLink>
         </NavMenu>
+
         <NavBtn>
           <IconContext.Provider value={{ size: "24px" }}>
             <NavLink to="/y" activeStyle>
