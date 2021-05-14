@@ -25,9 +25,9 @@ export const Projects = () => {
             {ProjectData.map((p, index) => {
               return (
                 <ProjectBox style={{ backgroundColor: `${p.BgColor}` }}>
-                  <LinkR to={`project/${index + 1}`}>
+                  <LinkR to={`projects/${index + 1}`}>
                     <P>{p.name}</P>
-                    <Img />
+                    <Img src={p.cardImg} />
                     <ButtonWrapper>
                       <P1>Read More</P1>
                     </ButtonWrapper>
