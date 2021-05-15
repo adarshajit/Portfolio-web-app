@@ -1,19 +1,32 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 60px 0 0 0;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    margin: 30px 0 0 0;
+  }
+`;
+export const ProjectWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 100px;
-`;
+  margin: 100px 0 0 0;
 
-export const H1 = styled.h1`
-  font-size: 50px;
-  font-weight: 800;
+  @media screen and (max-width: 768px) {
+    margin: 100px 0 0 20px;
+  }
 `;
 
 export const P = styled.p`
-  font-size: 70px;
+  font-size: 55px;
   font-weight: 600;
+
+  @media screen and (max-width: 768px) {
+    font-size: 50px;
+  }
 `;
 
 export const ButtonContainer = styled.div`
@@ -43,6 +56,17 @@ export const Button1 = styled.button`
     background-color: #641eff;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 160px;
+    height: 60px;
+  }
+
+  @media screen and (max-width: 370px) {
+    width: 140px;
+    height: 60px;
+    font-size: 16px;
+  }
 `;
 
 export const Button2 = styled.button`
@@ -62,6 +86,15 @@ export const Button2 = styled.button`
   &:hover {
     cursor: pointer;
   }
+
+  @media screen and (max-width: 768px) {
+    width: 160px;
+    height: 60px;
+  }
+  @media screen and (max-width: 370px) {
+    width: 130px;
+    height: 60px;
+  }
 `;
 
 export const Text = styled.div`
@@ -72,4 +105,21 @@ export const SocialIcon = styled.div`
   align-self: center;
   margin: 4px 0 0 4px;
   justify-content: center;
+`;
+export const A = styled.a`
+  text-decoration: none;
+`;
+export const Img = styled.img`
+  width: 400px;
+  height: 400px;
+  margin: 0 0 0 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    margin: 0 0 0 20px;
+    width: 330px;
+    height: 330px;
+  }
 `;

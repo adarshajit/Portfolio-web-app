@@ -42,6 +42,15 @@ export const ProjectBox = styled.div`
   grid-column: span 3;
   grid-row: span 5;
   border: 3px solid #000;
+  justify-content: center;
+
+  &:hover {
+    transition: 0.3s all ease-in-out;
+    transform: scale(1.01);
+    box-shadow: -6px 32px 33px -28px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -6px 32px 33px -28px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -6px 32px 33px -28px rgba(0, 0, 0, 0.75);
+  }
 
   @media screen and (max-width: 360px) {
     width: 280px;
@@ -68,6 +77,7 @@ export const Img = styled.img`
   @media screen and (max-width: 768px) {
     width: 250px;
     height: 220px;
+    margin-left: 32px;
   }
 `;
 
@@ -78,7 +88,7 @@ export const ButtonWrapper = styled.div`
 
 export const P1 = styled.p`
   font-size: 18px;
-  padding: 5px 0 0 12px;
+  padding: 5px 0 7px 12px;
   font-weight: 500;
 `;
 
