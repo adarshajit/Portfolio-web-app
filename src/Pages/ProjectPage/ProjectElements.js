@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const ProjectContainer = styled.div`
+  margin: 70px 0 0 0;
   display: flex;
   flex-direction: column;
 `;
@@ -95,4 +96,10 @@ export const P1 = styled.p`
 export const LinkR = styled(Link)`
   color: #000;
   text-decoration: none;
+`;
+
+export const Img1 = styled.img`
+  margin: 15px 0 0 27px;
+  height: 230px;
+  width: 250px;
 `;
