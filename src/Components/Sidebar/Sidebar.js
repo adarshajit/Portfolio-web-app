@@ -19,16 +19,16 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <Logo src={MyLogo} />
-        <SidebarRoute to="/" onClick={toggle}>
+        <SidebarRoute exact to="/" onClick={toggle}>
           Home
         </SidebarRoute>
-        <SidebarRoute to="about" onClick={toggle}>
+        <SidebarRoute to="/about" onClick={toggle}>
           About
         </SidebarRoute>
-        <SidebarRoute to="projects" onClick={toggle}>
+        <SidebarRoute to="/projects" onClick={toggle}>
           Projects
         </SidebarRoute>
-        <SidebarRoute to="contact" onClick={toggle}>
+        <SidebarRoute to="/contact" onClick={toggle}>
           Contact Me
         </SidebarRoute>
       </SidebarWrapper>

@@ -137,7 +137,7 @@ export const ImgLogo = styled.img`
 `;
 
 export const H1 = styled.h1`
-  font-size: 140px;
+  font-size: 145px;
 `;
 
 export const FontWrapper = styled.div`

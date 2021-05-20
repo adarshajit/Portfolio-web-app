@@ -29,6 +29,7 @@ const Navbar = ({ toggle }) => {
             <HomeIconFill />
             <NavText>Home</NavText>
           </NavLink>
+
           <NavLink to="/about" activeStyle>
             <AboutIcon />
             <NavText>About</NavText>

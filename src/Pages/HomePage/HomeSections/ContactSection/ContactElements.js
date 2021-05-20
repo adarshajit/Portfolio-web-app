@@ -100,11 +100,14 @@ export const Button = styled.button`
   border: 4px solid #000;
   text-decoration: none;
   border-radius: 32px;
+  stroke: #000;
 
   &:hover {
     transition: all 0.3s ease-in-out;
     border: 4px solid #9f40ff;
+    color: #7c4dff;
     cursor: pointer;
+    stroke: #7c4dff;
   }
 `;
 
@@ -113,20 +116,12 @@ export const ButtonWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 `;
 
 export const MailIcon = styled(FiMail)`
   size: 24px;
-  margin: 5px 0 -2px 9px;
-`;
-
-export const Icon = styled.div`
-  color: #000;
-  cursor: pointer;
-  &:hover {
-    color: #7c4dff;
-    transition: all 0.3s ease-in-out;
-  }
+  margin: 0 0 0 8px;
 `;
 
 export const P3 = styled.p`

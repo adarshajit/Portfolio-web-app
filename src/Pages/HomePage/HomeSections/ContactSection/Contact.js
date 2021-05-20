@@ -10,7 +10,6 @@ import {
   Button,
   MailIcon,
   ButtonWrapper,
-  Icon,
   SocialIcon,
   IconWrapper,
 } from "./ContactElements";
@@ -32,10 +31,8 @@ const Contact = () => {
             <P2>adarshajit@gmail.com</P2>
             <Button>
               <ButtonWrapper>
-                <Icon>
-                  Say Hello
-                  <MailIcon />
-                </Icon>
+                Say Hello
+                <MailIcon />
               </ButtonWrapper>
             </Button>
           </ContactBox>

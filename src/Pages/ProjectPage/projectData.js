@@ -5,7 +5,7 @@ const ProjectData = [
     BgColor: "#FDD180",
     cardImg: require("../../Assets/1.svg").default,
     projectLink: "https://covid19-awareness.netlify.app/",
-    gitLink: "https://github.com/adarshajit/Covid19-Awareness",
+    gitLink: "https://github.com/adarshajit/Depression-Recognizer-for-Twitter",
   },
 
   {
@@ -30,7 +30,7 @@ const ProjectData = [
     name: "Quotify",
     BgColor: "#ffa3ea",
     cardImg: require("../../Assets/4.svg").default,
-    projectLink: "https://icefoss.fisat.ac.in/",
+    projectLink: "https://quotify-app.netlify.app/",
     gitLink: "https://github.com/adarshajit/Quote-App",
   },
   {

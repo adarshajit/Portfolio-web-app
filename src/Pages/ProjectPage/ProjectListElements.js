@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ProjectContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   margin: 60px 0 0 0;
 
   @media screen and (max-width: 768px) {
@@ -10,10 +11,11 @@ export const ProjectContainer = styled.div`
     margin: 30px 0 0 0;
   }
 `;
+
 export const ProjectWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 100px 0 0 0;
+  margin: 100px 0 0 25px;
 
   @media screen and (max-width: 768px) {
     margin: 100px 0 0 20px;
@@ -21,11 +23,15 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const P = styled.p`
-  font-size: 55px;
+  font-size: 52px;
   font-weight: 600;
 
   @media screen and (max-width: 768px) {
-    font-size: 50px;
+    font-size: 45px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 28px;
   }
 `;
 
@@ -109,13 +115,15 @@ export const SocialIcon = styled.div`
 export const A = styled.a`
   text-decoration: none;
 `;
+
+export const ImgWrapper = styled.div`
+  display: grid;
+  place-items: center;
+`;
 export const Img = styled.img`
   width: 400px;
   height: 400px;
   margin: 0 0 0 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   @media screen and (max-width: 768px) {
     margin: 0 0 0 20px;

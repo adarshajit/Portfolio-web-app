@@ -15,16 +15,20 @@ import {
   ProjectContainer,
   Img,
   A,
+  ImgWrapper,
 } from "./ProjectListElements";
 import { AiFillGithub as GitIcon } from "react-icons/ai";
 const ProjectList = () => {
-  let id = useParams();
-  let data = ProjecData.filter((item) => item.id === id.Id)[0];
+  var id = useParams();
+  var data = ProjecData.filter((item) => item.id === id.Id)[0];
 
   return (
     <div>
       <ProjectContainer>
-        <Img src={data.cardImg} />
+        <ImgWrapper>
+          <Img src={data.cardImg} />
+        </ImgWrapper>
+
         <ProjectWrapper>
           <P>{data.name}</P>
           <ButtonContainer>
