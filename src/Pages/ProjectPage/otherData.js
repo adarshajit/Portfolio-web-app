@@ -3,7 +3,7 @@ const otherData = [
     id: 1,
     name: "Illustrations / Posters",
     BgColor: "#fff",
-    cardImg: require("../../Assets/camera man.png").default,
+    cardImg: require("../../Assets/camera_man.png").default,
     link: "art",
   },
 

@@ -45,7 +45,7 @@ export const Projects = () => {
           <H1>Other</H1>
 
           <ProjectGrid>
-            {otherData.map((o, index) => {
+            {otherData.map((o) => {
               return (
                 <ProjectBox style={{ backgroundColor: `${o.BgColor}` }}>
                   <LinkR to={o.link}>

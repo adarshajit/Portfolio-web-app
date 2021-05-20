@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
-export const ProjectContainer = styled.div`
+export const ArtContainer = styled.div`
   margin: 70px 0 0 0;
   display: flex;
   flex-direction: column;
@@ -19,7 +18,7 @@ export const H1 = styled.h1`
   }
 `;
 
-export const ProjectGrid = styled.div`
+export const ArtGrid = styled.div`
   display: grid;
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -32,9 +31,9 @@ export const ProjectGrid = styled.div`
   }
 `;
 
-export const ProjectBox = styled.div`
-  width: 400px;
-  height: 350px;
+export const ArtBox = styled.div`
+  max-width: 500px;
+  max-height: 500px;
   padding: 10px;
   border-radius: 10px;
   display: flex;
@@ -42,7 +41,7 @@ export const ProjectBox = styled.div`
   align-self: center;
   grid-column: span 3;
   grid-row: span 5;
-  border: 3px solid #000;
+
   justify-content: center;
 
   &:hover {
@@ -54,53 +53,26 @@ export const ProjectBox = styled.div`
     -moz-box-shadow: -6px 32px 33px -28px rgba(0, 0, 0, 0.75);
   }
 
-  @media screen and (max-width: 360px) {
-    width: 280px;
+  @media screen and (max-width: 768px) {
+    max-width: 500px;
+    max-height: 500px;
   }
 
-  @media screen and (min-width: 360px) {
+  /* @media screen and (min-width: 360px) {
     width: 350px;
-  }
-`;
-
-export const P = styled.p`
-  font-size: 22px;
-  padding: 12px 0 0 12px;
-  font-weight: 600;
+  } */
 `;
 
 export const Img = styled.img`
-  width: 300px;
-  height: 200px;
+  max-width: 400px;
+  max-height: 350px;
   display: flex;
   align-self: center;
   margin: 30px 15px 15px 15px;
 
   @media screen and (max-width: 768px) {
-    width: 250px;
-    height: 220px;
+    max-width: 280px;
+    max-height: 350px;
     margin-left: 32px;
   }
-`;
-
-export const ButtonWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-`;
-
-export const P1 = styled.p`
-  font-size: 18px;
-  padding: 5px 0 7px 12px;
-  font-weight: 500;
-`;
-
-export const LinkR = styled(Link)`
-  color: #000;
-  text-decoration: none;
-`;
-
-export const Img1 = styled.img`
-  margin: 15px 0 0 27px;
-  height: 230px;
-  width: 250px;
 `;
