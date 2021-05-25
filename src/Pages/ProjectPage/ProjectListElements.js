@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const ProjectAll = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const ProjectContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -15,11 +20,8 @@ export const ProjectContainer = styled.div`
 export const ProjectWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 100px 0 0 25px;
-
-  @media screen and (max-width: 768px) {
-    margin: 100px 0 0 20px;
-  }
+  justify-content: center;
+  align-items: center;
 `;
 
 export const P = styled.p`
@@ -121,13 +123,42 @@ export const ImgWrapper = styled.div`
   place-items: center;
 `;
 export const Img = styled.img`
+  display: flex;
   width: 400px;
   height: 400px;
-  margin: 0 0 0 130px;
+  justify-content: center;
+  align-items: center;
 
   @media screen and (max-width: 768px) {
-    margin: 0 0 0 20px;
     width: 330px;
     height: 330px;
+  }
+
+  @media screen and (max-width: 300px) {
+    width: 280px;
+    height: 280px;
+  }
+`;
+
+export const ProjectInfo = styled.div`
+  margin: 100px;
+  max-width: 600px;
+
+  @media screen and (max-width: 768px) {
+    margin: 100px 0 0 30px;
+    max-width: 350px;
+  }
+`;
+
+export const H1 = styled.h1`
+  margin: 40px 0 10px 0;
+  font-size: 32px;
+`;
+export const P2 = styled.p`
+  font-size: 18px;
+  font-weight: 500;
+
+  @media screen and (max-width: 300px) {
+    font-size: 15px;
   }
 `;

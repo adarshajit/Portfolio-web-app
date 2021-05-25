@@ -40,27 +40,28 @@ export const Projects = () => {
             })}
           </ProjectGrid>
         </ProjectContainer>
-
-        <ProjectContainer>
-          <H1>Other</H1>
-
-          <ProjectGrid>
-            {otherData.map((o) => {
-              return (
-                <ProjectBox style={{ backgroundColor: `${o.BgColor}` }}>
-                  <LinkR to={o.link}>
-                    <P>{o.name}</P>
-                    <Img1 src={o.cardImg} />
-                    <ButtonWrapper>
-                      <P1>Read More</P1>
-                    </ButtonWrapper>
-                  </LinkR>
-                </ProjectBox>
-              );
-            })}
-          </ProjectGrid>
-        </ProjectContainer>
       </Bounce>
+
+      <ProjectContainer>
+        <H1>Other</H1>
+
+        <ProjectGrid>
+          {otherData.map((o) => {
+            return (
+              <ProjectBox style={{ backgroundColor: `${o.BgColor}` }}>
+                <LinkR to={o.link}>
+                  <P>{o.name}</P>
+                  <Img1 src={o.cardImg} />
+                  <ButtonWrapper>
+                    <P1>Read More</P1>
+                  </ButtonWrapper>
+                </LinkR>
+              </ProjectBox>
+            );
+          })}
+        </ProjectGrid>
+      </ProjectContainer>
+
       <Footer />
     </>
   );

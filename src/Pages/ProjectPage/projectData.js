@@ -6,6 +6,19 @@ const ProjectData = [
     cardImg: require("../../Assets/1.svg").default,
     projectLink: "https://covid19-awareness.netlify.app/",
     gitLink: "https://github.com/adarshajit/Depression-Recognizer-for-Twitter",
+    features: [
+      "Read from a collection of 2000 quotes",
+      "Share quote to social media (Currently supports twitter only)",
+      "Minimal UI",
+      "Fully Responsive",
+    ],
+    builtWith: [
+      "React",
+      "Styled Components for styling",
+      "react-router-dom: for routing",
+      "react-share: social icons",
+      "Netlify: for hosting",
+    ],
   },
 
   {
@@ -15,6 +28,19 @@ const ProjectData = [
     cardImg: require("../../Assets/2.svg").default,
     projectLink: "https://covid19-awareness.netlify.app/",
     gitLink: "https://github.com/adarshajit/Covid19-Awareness",
+    features: [
+      "Read from a collection of 2000 quotes",
+      "Share quote to social media (Currently supports twitter only)",
+      "Minimal UI",
+      "Fully Responsive",
+    ],
+    builtWith: [
+      "React",
+      "Styled Components for styling",
+      "react-router-dom: for routing",
+      "react-share: social icons",
+      "Netlify: for hosting",
+    ],
   },
 
   {
@@ -24,6 +50,13 @@ const ProjectData = [
     cardImg: require("../../Assets/3.svg").default,
     projectLink: "https://icefoss.fisat.ac.in/",
     gitLink: "https://github.com/adarshajit/ICEFOSS2021",
+    features: [
+      "Read from a collection of 2000 quotes",
+      "Share quote to social media (Currently supports twitter only)",
+      "Minimal UI",
+      "Fully Responsive",
+    ],
+    builtWith: ["HTML", "Tailwind CSS", "Javascript", "particles.js"],
   },
   {
     id: "4",
@@ -32,6 +65,19 @@ const ProjectData = [
     cardImg: require("../../Assets/4.svg").default,
     projectLink: "https://quotify-app.netlify.app/",
     gitLink: "https://github.com/adarshajit/Quote-App",
+    features: [
+      "Read from a collection of 2000 quotes",
+      "Share quote to social media (Currently supports twitter only)",
+      "Minimal UI",
+      "Fully Responsive",
+    ],
+    builtWith: [
+      "React",
+      "Styled Components for styling",
+      "react-router-dom: for routing",
+      "react-share: social icons",
+      "Netlify: for hosting",
+    ],
   },
   {
     id: "5",
@@ -40,6 +86,19 @@ const ProjectData = [
     cardImg: require("../../Assets/5.svg").default,
     projectLink: "https://icefoss.fisat.ac.in/",
     gitLink: "https://github.com/adarshajit/ICEFOSS2021",
+    features: [
+      "Read from a collection of 2000 quotes",
+      "Share quote to social media (Currently supports twitter only)",
+      "Minimal UI",
+      "Fully Responsive",
+    ],
+    builtWith: [
+      "React",
+      "Styled Components for styling",
+      "react-router-dom: for routing",
+      "react-share: social icons",
+      "Netlify: for hosting",
+    ],
   },
 
   {
@@ -49,6 +108,19 @@ const ProjectData = [
     cardImg: require("../../Assets/6.svg").default,
     projectLink: "https://icefoss.fisat.ac.in/",
     gitLink: "https://github.com/adarshajit/CRUD-app",
+    features: [
+      "Read from a collection of 2000 quotes",
+      "Share quote to social media (Currently supports twitter only)",
+      "Minimal UI",
+      "Fully Responsive",
+    ],
+    builtWith: [
+      "React",
+      "Styled Components for styling",
+      "react-router-dom: for routing",
+      "react-share: social icons",
+      "Netlify: for hosting",
+    ],
   },
 ];
 
