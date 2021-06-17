@@ -26,6 +26,12 @@ import {
   ColorWrapper,
   Color,
   ColorText,
+  Overlay,
+  Quote,
+  QuoteSection,
+  QuoteOverlay,
+  QuoteText,
+  QuoteAuthor,
 } from "./AboutElements";
 import MacIcon from "../../Assets/mac.svg";
 import Profile from "../../Assets/profile.jpg";
@@ -52,6 +58,7 @@ export const About = () => {
         <AboutSection>
           <ImgWrapper>
             <ProfileImg src={Profile} />
+            <Overlay />
           </ImgWrapper>
           <P2>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -120,6 +127,17 @@ export const About = () => {
             </Color>
           </ColorWrapper>
         </AboutText>
+
+        <QuoteSection>
+          <Quote>
+            <QuoteText>
+              When you are content to be simply yourself and don't compare or
+              compete, everybody will respect you.
+            </QuoteText>
+            <QuoteAuthor>- Laozi</QuoteAuthor>
+          </Quote>
+          <QuoteOverlay />
+        </QuoteSection>
 
         <Footer />
       </AboutContainer>

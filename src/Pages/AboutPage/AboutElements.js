@@ -10,7 +10,7 @@ export const AboutSection = styled.div`
   grid-template-columns: 1fr 1fr;
   place-items: center;
 
-  margin: 0 0 270px 0;
+  margin: 40px 0 150px 0;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -61,12 +61,12 @@ export const Img = styled.img`
   align-self: center;
   height: 350px;
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 768px) {
     max-width: 300px;
     max-height: 300px;
   }
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 360px) {
     max-width: 270px;
     max-height: 270px;
   }
@@ -74,23 +74,47 @@ export const Img = styled.img`
 
 export const ProfileImg = styled.img`
   border-radius: 10px;
-  border: 5px solid #000;
+  border: 4px solid #000;
   align-items: center;
   height: 350px;
+  width: 350px;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
-    border: 5px solid #7c4dff;
+    transform: translate(18px, -18px);
     transition: all 0.3s ease-in-out;
   }
 
-  @media screen and (max-width: 350px) {
-    max-width: 300px;
-    max-height: 300px;
+  @media screen and (max-width: 768px) {
+    width: 300px;
+    height: 300px;
   }
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 360px) {
     max-width: 270px;
     max-height: 270px;
+  }
+`;
+
+export const Overlay = styled.div`
+  border-radius: 10px;
+  position: relative;
+  border: 4px solid #7c4dff;
+  align-items: center;
+  height: 350px;
+  width: 350px;
+  transform: translate(18px, -18px);
+
+  @media screen and (max-width: 768px) {
+    width: 300px;
+    height: 300px;
+  }
+
+  @media screen and (max-width: 360px) {
+    width: 270px;
+    height: 270px;
   }
 `;
 
@@ -110,7 +134,11 @@ export const SubHeading = styled.p`
   display: grid;
   place-items: center;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 70px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 50px;
+  }
 `;
 
 export const P2 = styled.p`
@@ -210,7 +238,7 @@ export const ColorWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 80px;
   place-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -235,4 +263,81 @@ export const ColorText = styled.p`
   font-size: 20px;
   font-weight: 600;
   color: #fff;
+`;
+
+export const QuoteSection = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0 75px 0;
+`;
+
+export const QuoteOverlay = styled.div`
+  display: flex;
+  align-self: center;
+  border-radius: 10px;
+  width: 1000px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #000;
+  position: relative;
+  z-index: 6;
+  transform: translate(30px, 30px);
+  background-color: #7c4dff;
+
+  @media screen and (max-width: 768px) {
+    width: 360px;
+    height: 400px;
+    transform: translate(20px, 20px);
+  }
+
+  @media screen and (max-width: 360px) {
+    width: 300px;
+    height: 400px;
+    transform: translate(20px, 20px);
+  }
+`;
+
+export const Quote = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 10px;
+  width: 1000px;
+  height: 300px;
+  background-color: #fff;
+  z-index: 10;
+  border: 3px solid #000;
+  @media screen and (max-width: 768px) {
+    width: 360px;
+    height: 400px;
+  }
+
+  @media screen and (max-width: 360px) {
+    width: 300px;
+    height: 400px;
+  }
+`;
+
+export const QuoteText = styled.p`
+  font-size: 27px;
+  margin-top: 50px;
+  font-weight: 600;
+  padding-left: 30px;
+
+  @media screen and (max-width: 360px) {
+    font-size: 24px;
+  }
+`;
+
+export const QuoteAuthor = styled.p`
+  display: flex;
+  font-size: 27px;
+  font-weight: 400;
+  font-style: italic;
+  margin: 40px 40px 0 0;
+  align-self: flex-end;
 `;
