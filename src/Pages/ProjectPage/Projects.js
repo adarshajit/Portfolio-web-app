@@ -12,6 +12,7 @@ import {
   P1,
   LinkR,
   Img1,
+  ProjectFlex,
 } from "./ProjectElements";
 
 import Footer from "../../Components/Footer/Footer";
@@ -45,7 +46,7 @@ export const Projects = () => {
       <ProjectContainer>
         <H1>Other</H1>
 
-        <ProjectGrid>
+        <ProjectFlex>
           {otherData.map((o) => {
             return (
               <ProjectBox style={{ backgroundColor: `${o.BgColor}` }}>
@@ -59,7 +60,7 @@ export const Projects = () => {
               </ProjectBox>
             );
           })}
-        </ProjectGrid>
+        </ProjectFlex>
       </ProjectContainer>
 
       <Footer />

@@ -32,6 +32,21 @@ export const ProjectGrid = styled.div`
   }
 `;
 
+export const ProjectFlex = styled.div`
+  display: flex;
+  flex-direction: row;
+  grid-gap: 40px;
+  align-self: flex-start;
+  margin: 40px 100px 0 120px;
+
+  @media screen and (max-width: 768px) {
+    grid-gap: 5px;
+    flex-direction: column;
+    align-self: center;
+    margin: 40px;
+  }
+`;
+
 export const ProjectBox = styled.div`
   width: 400px;
   height: 350px;
@@ -44,6 +59,7 @@ export const ProjectBox = styled.div`
   grid-row: span 5;
   border: 3px solid #000;
   justify-content: center;
+  transition: 0.3s all ease-in-out;
 
   &:hover {
     cursor: pointer;

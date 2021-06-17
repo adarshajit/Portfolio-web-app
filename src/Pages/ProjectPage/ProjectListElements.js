@@ -30,10 +30,12 @@ export const P = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 45px;
+    margin-top: 50px;
   }
 
   @media screen and (max-width: 450px) {
     font-size: 28px;
+    margin-top: 50px;
   }
 `;
 
@@ -142,7 +144,6 @@ export const Img = styled.img`
 
 export const ProjectInfo = styled.div`
   margin: 100px;
-  max-width: 600px;
 
   @media screen and (max-width: 768px) {
     margin: 100px 0 0 30px;
