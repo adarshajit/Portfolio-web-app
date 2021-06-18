@@ -43,7 +43,7 @@ const artImages = [
   },
   {
     id: 10,
-    imgUrl: require("../../Assets/hire.png").default,
+    imgUrl: require("../../Assets/face.png").default,
   },
   {
     id: 11,
@@ -52,6 +52,11 @@ const artImages = [
   {
     id: 12,
     imgUrl: require("../../Assets/roadmap.png").default,
+  },
+
+  {
+    id: 13,
+    imgUrl: require("../../Assets/hire.png").default,
   },
 ];
 
