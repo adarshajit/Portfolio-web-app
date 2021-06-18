@@ -18,6 +18,17 @@ export const H1 = styled.h1`
   }
 `;
 
+export const P = styled.p`
+  font-size: 24px;
+  color: #5e5e5e;
+  margin: 0 0 0 100px;
+  font-weight: 500;
+  @media screen and (max-width: 768px) {
+    display: grid;
+    place-items: center;
+    margin: 0;
+  }
+`;
 export const ArtGrid = styled.div`
   display: grid;
   place-items: center;
