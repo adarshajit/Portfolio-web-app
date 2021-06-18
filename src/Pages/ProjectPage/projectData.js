@@ -10,13 +10,27 @@ const ProjectData = [
       "Read from a collection of 2000 quotes",
       "Share quote to social media (Currently supports twitter only)",
       "Minimal UI",
-      "Fully Responsive",
+      "Completely Responsive",
     ],
     builtWith: [
+      "Tweepy",
+      "Django",
+      "textblob",
+      "nltk",
+      "numpy",
+      "pandas",
+      "sklearn",
+      "Algorithm : Multinomial Naive Bayes",
       "React",
       "Styled Components for styling",
       "react-router-dom: for routing",
-      "Netlify: for hosting",
+      "Vercel: for hosting",
+    ],
+
+    screenshots: [
+      require("../../Assets/Projects/1/user.png").default,
+      require("../../Assets/Projects/1/dashboard_user.png").default,
+      require("../../Assets/Projects/1/dashboard_tweet.png").default,
     ],
   },
 
@@ -39,6 +53,7 @@ const ProjectData = [
       "react-router-dom: for routing",
       "Netlify: for hosting",
     ],
+    screenshots: [require("../../Assets/Projects/2/landing page.png").default],
   },
 
   {
@@ -55,6 +70,10 @@ const ProjectData = [
       "Option to register",
     ],
     builtWith: ["HTML", "Tailwind CSS", "Javascript", "particles.js"],
+    screenshots: [
+      require("../../Assets/Projects/3/landing page.png").default,
+      require("../../Assets/Projects/3/register.png").default,
+    ],
   },
   {
     id: "4",
@@ -75,6 +94,10 @@ const ProjectData = [
       "react-router-dom: for routing",
       "react-share: social icons",
       "Netlify: for hosting",
+    ],
+    screenshots: [
+      require("../../Assets/Projects/4/landing page.png").default,
+      require("../../Assets/Projects/4/quote.png").default,
     ],
   },
   // {
@@ -99,27 +122,27 @@ const ProjectData = [
   //   ],
   // },
 
-  {
-    id: "5",
-    name: "CRUD Application",
-    BgColor: "#A7FFEB",
-    cardImg: require("../../Assets/6.svg").default,
-    projectLink: "https://icefoss.fisat.ac.in/",
-    gitLink: "https://github.com/adarshajit/CRUD-app",
-    features: [
-      "Read from a collection of 2000 quotes",
-      "Share quote to social media (Currently supports twitter only)",
-      "Minimal UI",
-      "Fully Responsive",
-    ],
-    builtWith: [
-      "React",
-      "Styled Components: for styling",
-      "react-router-dom: for routing",
-      "react-share: social icons",
-      "Netlify: for hosting",
-    ],
-  },
+  // {
+  //   id: "5",
+  //   name: "CRUD Application",
+  //   BgColor: "#A7FFEB",
+  //   cardImg: require("../../Assets/6.svg").default,
+  //   projectLink: "https://icefoss.fisat.ac.in/",
+  //   gitLink: "https://github.com/adarshajit/CRUD-app",
+  //   features: [
+  //     "Read from a collection of 2000 quotes",
+  //     "Share quote to social media (Currently supports twitter only)",
+  //     "Minimal UI",
+  //     "Fully Responsive",
+  //   ],
+  //   builtWith: [
+  //     "React",
+  //     "Styled Components: for styling",
+  //     "react-router-dom: for routing",
+  //     "react-share: social icons",
+  //     "Netlify: for hosting",
+  //   ],
+  // },
 ];
 
 export default ProjectData;

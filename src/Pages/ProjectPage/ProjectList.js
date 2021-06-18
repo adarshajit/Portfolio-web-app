@@ -20,6 +20,7 @@ import {
   ProjectInfo,
   P2,
   H1,
+  Img2,
 } from "./ProjectListElements";
 import { AiFillGithub as GitIcon } from "react-icons/ai";
 const ProjectList = () => {
@@ -64,9 +65,9 @@ const ProjectList = () => {
           {data.builtWith.map((tech) => {
             return <P2>{`🔸 ${tech}`}</P2>;
           })}
-          <H1>Screenshots 🖼️</H1>
-          {data.builtWith.map((tech) => {
-            return <P2>{`🔸 ${tech}`}</P2>;
+          <H1>Screenshots 📷</H1>
+          {data.screenshots.map((pic) => {
+            return <Img2 src={pic} />;
           })}
         </ProjectInfo>
       </ProjectAll>

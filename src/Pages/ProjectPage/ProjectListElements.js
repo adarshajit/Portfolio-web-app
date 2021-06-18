@@ -13,7 +13,7 @@ export const ProjectContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
-    margin: 30px 0 0 0;
+    margin-bottom: 100px;
   }
 `;
 
@@ -146,7 +146,7 @@ export const ProjectInfo = styled.div`
   margin: 100px;
 
   @media screen and (max-width: 768px) {
-    margin: 100px 0 0 30px;
+    margin: 0px;
     max-width: 350px;
   }
 `;
@@ -154,12 +154,31 @@ export const ProjectInfo = styled.div`
 export const H1 = styled.h1`
   margin: 40px 0 10px 0;
   font-size: 32px;
+  @media screen and (max-width: 768px) {
+    margin: 35px 0 0 20px;
+  }
 `;
 export const P2 = styled.p`
   font-size: 18px;
   font-weight: 500;
 
+  @media screen and (max-width: 768px) {
+    margin: 0 0 0 10px;
+  }
+
   @media screen and (max-width: 300px) {
     font-size: 15px;
+  }
+`;
+
+export const Img2 = styled.img`
+  margin-top: 40px;
+  max-width: 789px;
+  box-shadow: 4px 7px 55px -19px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 7px 55px -19px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 7px 55px -19px rgba(0, 0, 0, 0.75);
+  @media screen and (max-width: 768px) {
+    max-width: 360px;
+    margin-top: 20px;
   }
 `;
