@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { GrDocumentPdf as PDFIcon } from "react-icons/gr";
 
 export const ProjectAll = styled.div`
   display: flex;
@@ -181,4 +182,10 @@ export const Img2 = styled.img`
     max-width: 360px;
     margin-top: 20px;
   }
+`;
+
+export const PDF = styled(PDFIcon)`
+  font-size: 8rem;
+  margin: 25px;
+  cursor: pointer;
 `;

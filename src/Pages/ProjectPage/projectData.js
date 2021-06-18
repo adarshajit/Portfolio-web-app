@@ -4,11 +4,14 @@ const ProjectData = [
     name: "Depression Recogniser",
     BgColor: "#FDD180",
     cardImg: require("../../Assets/1.svg").default,
+    visibility: "block",
     projectLink: "https://depression-recognizer-for-twitter.vercel.app/",
     gitLink: "https://github.com/adarshajit/Depression-Recognizer-for-Twitter",
     features: [
-      "Read from a collection of 2000 quotes",
-      "Share quote to social media (Currently supports twitter only)",
+      "Enter a twitter handle to check depression of user",
+      "Enter a tweet to detect depression of user",
+      "Fetches upto 20 real time tweets of the user",
+      "Trained model has an Accuracy of 86%",
       "Minimal UI",
       "Completely Responsive",
     ],
@@ -39,6 +42,7 @@ const ProjectData = [
     name: "Covid-19 Awareness",
     BgColor: "#8D9FFF",
     cardImg: require("../../Assets/2.svg").default,
+    visibility: "none",
     projectLink: "https://covid19-awareness.netlify.app/",
     gitLink: "https://github.com/adarshajit/Covid19-Awareness",
     features: [
@@ -61,6 +65,7 @@ const ProjectData = [
     name: "ICEFOSS 2021",
     BgColor: "#B8F7CA",
     cardImg: require("../../Assets/3.svg").default,
+    visibility: "none",
     projectLink: "https://icefoss.fisat.ac.in/",
     gitLink: "https://github.com/adarshajit/ICEFOSS2021",
     features: [
@@ -80,6 +85,7 @@ const ProjectData = [
     name: "Quotify",
     BgColor: "#ffa3ea",
     cardImg: require("../../Assets/4.svg").default,
+    visibility: "none",
     projectLink: "https://quotify-app.netlify.app/",
     gitLink: "https://github.com/adarshajit/Quote-App",
     features: [

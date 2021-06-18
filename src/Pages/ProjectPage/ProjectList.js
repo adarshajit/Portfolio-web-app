@@ -21,8 +21,10 @@ import {
   P2,
   H1,
   Img2,
+  PDF,
 } from "./ProjectListElements";
 import { AiFillGithub as GitIcon } from "react-icons/ai";
+
 const ProjectList = () => {
   var id = useParams();
   var data = ProjecData.filter((item) => item.id === id.Id)[0];
@@ -65,6 +67,17 @@ const ProjectList = () => {
           {data.builtWith.map((tech) => {
             return <P2>{`🔸 ${tech}`}</P2>;
           })}
+          <div style={{ display: `${data.visibility}` }}>
+            <H1>Project Report</H1>
+
+            <A
+              rel={"noreferrer"}
+              href="https://drive.google.com/file/d/1Gl_2K5g1FzUOWiMmuF4WLPnQB_uuZc_4/view?usp=sharing"
+              target="_blank"
+            >
+              <PDF />
+            </A>
+          </div>
           <H1>Screenshots 📷</H1>
           {data.screenshots.map((pic) => {
             return <Img2 src={pic} />;
