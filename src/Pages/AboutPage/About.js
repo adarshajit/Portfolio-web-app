@@ -32,6 +32,10 @@ import {
   QuoteOverlay,
   QuoteText,
   QuoteAuthor,
+  Name,
+  Tag,
+  MyData,
+  InfoCard,
 } from "./AboutElements";
 import MacIcon from "../../Assets/mac.svg";
 import Profile from "../../Assets/profile.jpg";
@@ -61,16 +65,55 @@ export const About = () => {
             <ProfileImg src={Profile} />
             <Overlay />
           </ImgWrapper>
-          <P2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            ac efficitur lacus. Aliquam erat volutpat. Suspendisse eu arcu eu
-            ligula lobortis scelerisque. Suspendisse sagittis eget sem fringilla
-            tristique. Curabitur lobortis ipsum vehicula, luctus turpis non,
-            rhoncus urna. Donec erat quam, consequat id ultrices a, accumsan
-            eget lacus. Proin ac sollicitudin massa, at gravida sem. Aenean
-            feugiat bibendum urna ut vulputate.
-          </P2>
+          <div>
+            <Tag>Hi, My name is.. </Tag>
+            <Name>Adarsh Ajit ✨</Name>
+            <P2>
+              I'am a recent Computer Science graduate from Federal Institute of
+              Science and Technology. I was always fascinated by computers the
+              moment I got a chance to use one when I was in 3rd grade. I was
+              introduced to programming when i was in my high school and that
+              really propelled my interest and passion for this field. I have
+              been learning different languages and tools to broadly expand my
+              expertise and knowledge in the world of programming and design.
+            </P2>
+          </div>
         </AboutSection>
+        <MyData>
+          <a
+            href="https://resume.io/r/9baJP8n7y"
+            rel="noreferrer"
+            target="_blank"
+            style={{ textDecoration: "none" }}
+          >
+            <InfoCard>
+              <h6>Download my</h6>
+              <p>Resume</p>
+            </InfoCard>
+          </a>
+          <a
+            href="https://github.com/adarshajit"
+            rel="noreferrer"
+            target="_blank"
+            style={{ textDecoration: "none" }}
+          >
+            <InfoCard>
+              <h6>View all my projects</h6>
+              <p>Github</p>
+            </InfoCard>
+          </a>
+          <a
+            href="mailto:adarshajit@gmail.com?body=Hi%20Adarsh,"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <InfoCard>
+              <h6>Lets have a chat</h6>
+              <p>Email</p>
+            </InfoCard>
+          </a>
+        </MyData>
 
         <AboutText>
           <SubHeading>The Logo</SubHeading>

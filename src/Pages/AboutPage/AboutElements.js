@@ -14,9 +14,47 @@ export const AboutSection = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
-    margin: 0 0 200px 0;
+    margin: 40px 0 140px 0;
     grid-gap: 5px;
     padding: 5px;
+  }
+`;
+
+export const MyData = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+
+  margin: 0px 50px 280px 50px;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 5px;
+    margin: 0 0 170px 0;
+  }
+`;
+
+export const InfoCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: #7c4dff;
+  border: 3px solid #000;
+  border-radius: 10px;
+  align-self: center;
+  width: 300px;
+  height: 140px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 800;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
   }
 `;
 
@@ -142,13 +180,38 @@ export const SubHeading = styled.p`
 `;
 
 export const P2 = styled.p`
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
-  padding: 0 14px 0 0;
+  margin-right: 30px;
 
   @media screen and (max-width: 768px) {
     font-size: 17px;
-    padding: 0 10px 0 10px;
+    text-align: left;
+    margin-left: 30px;
+  }
+`;
+
+export const Tag = styled.p`
+  font-size: 18px;
+  font-weight: 800;
+  margin-right: 30px;
+  color: #7c4dff;
+
+  @media screen and (max-width: 768px) {
+    font-size: 17px;
+    margin-left: 30px;
+    text-align: left;
+  }
+`;
+
+export const Name = styled.p`
+  font-size: 28px;
+  font-weight: 800;
+  margin-right: 30px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+    margin-left: 30px;
     text-align: left;
   }
 `;
@@ -171,7 +234,7 @@ export const H1 = styled.h1`
 export const FontWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 80px 0 0 10px;
+  margin: 10px 0 0 10px;
 `;
 
 export const P3 = styled.p`
@@ -292,7 +355,7 @@ export const QuoteOverlay = styled.div`
     transform: translate(20px, 20px);
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 375px) {
     width: 300px;
     height: 400px;
     transform: translate(20px, 20px);
@@ -316,7 +379,7 @@ export const Quote = styled.div`
     height: 400px;
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 375px) {
     width: 300px;
     height: 400px;
   }
@@ -328,7 +391,7 @@ export const QuoteText = styled.p`
   font-weight: 600;
   padding-left: 30px;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 375px) {
     font-size: 24px;
   }
 `;
