@@ -42,9 +42,14 @@ const Navbar = ({ toggle }) => {
 
         <NavBtn>
           <IconContext.Provider value={{ size: "24px" }}>
-            <NavLink to="/y" activeStyle>
+            <a
+              href="mailto:adarshajit@gmail.com?body=Hi%20Adarsh,"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#5e5e5e" }}
+            >
               <MailIcon />
-            </NavLink>
+            </a>
           </IconContext.Provider>
         </NavBtn>
       </Nav>

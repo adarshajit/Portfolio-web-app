@@ -30,12 +30,19 @@ const Contact = () => {
           <ContactBox>
             <P1>Get in Touch</P1>
             <P2>adarshajit@gmail.com</P2>
-            <Button>
-              <ButtonWrapper>
-                Say Hello
-                <MailIcon />
-              </ButtonWrapper>
-            </Button>
+            <a
+              href="mailto:adarshajit@gmail.com?body=Hi%20Adarsh,"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#5e5e5e" }}
+            >
+              <Button>
+                <ButtonWrapper>
+                  Say Hello
+                  <MailIcon />
+                </ButtonWrapper>
+              </Button>
+            </a>
           </ContactBox>
         </ContactInfo>
 

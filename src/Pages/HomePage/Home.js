@@ -33,7 +33,11 @@ const Home = () => {
               learn about my journey so far.
             </TextInfo>
             <ButtonContainer>
-              <a href="www.google.com" rel="noreferrer" target="_blank">
+              <a
+                href="mailto:adarshajit@gmail.com?body=Hi%20Adarsh,"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Button>Let's Talk</Button>
               </a>
               <a
