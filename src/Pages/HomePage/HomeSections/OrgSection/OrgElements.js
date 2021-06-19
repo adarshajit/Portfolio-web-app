@@ -140,3 +140,9 @@ export const P2 = styled.p`
     font-size: 15px;
   }
 `;
+
+export const A = styled.a`
+  text-decoration: none;
+  display: flex;
+  align-self: center;
+`;

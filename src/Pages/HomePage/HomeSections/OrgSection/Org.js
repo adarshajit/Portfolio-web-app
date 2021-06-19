@@ -11,6 +11,7 @@ import {
   TextContainer,
   Img,
   Img1,
+  A,
 } from "./OrgElements";
 import CCI from "../../../../Assets/cci.png";
 import FFSC from "../../../../Assets/ffsc.png";
@@ -31,7 +32,13 @@ const Organisations = () => {
               mobile application development,native apps and backend
               development.
             </P2>
-            <Button>My Works</Button>
+            <A
+              href="https://cci-fisat.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button>Learn more</Button>
+            </A>
           </TextContainer>
         </BoxContainer>
         <BoxContainer>
@@ -44,7 +51,9 @@ const Organisations = () => {
               Linux operating system, kernel programming and Web application
               development.
             </P2>
-            <Button>My Works</Button>
+            <A href="http://ffsc.fisat.ac.in/" target="_blank" rel="noreferrer">
+              <Button>Learn more</Button>
+            </A>
           </TextContainer>
         </BoxContainer>
       </OrgContainer>
