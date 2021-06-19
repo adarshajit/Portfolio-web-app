@@ -39,7 +39,7 @@ export const SidebarWrapper = styled.div`
 
 export const Logo = styled.img`
   align-self: center;
-  width: 100px;
+  width: 80px;
   position: absolute;
   top: 70px;
 `;
@@ -48,7 +48,7 @@ export const SidebarRoute = styled(LinkRouter)`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 34px;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
