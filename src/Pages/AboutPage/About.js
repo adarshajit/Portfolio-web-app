@@ -38,6 +38,7 @@ import Profile from "../../Assets/profile.jpg";
 import Logo from "../../Assets/logo.png";
 import Footer from "../../Components/Footer/Footer";
 export const About = () => {
+  document.title = "Adarsh Ajit - About";
   const colorsList = ["#000", "#5a5a5a", "#7c4dff"];
   return (
     <>

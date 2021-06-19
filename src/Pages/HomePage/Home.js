@@ -17,6 +17,7 @@ import Organisations from "../HomePage/HomeSections/OrgSection/Org";
 import Contact from "./HomeSections/ContactSection/Contact";
 
 const Home = () => {
+  document.title = "Adarsh Ajit - Home";
   return (
     <>
       <HomeContainer>
@@ -32,9 +33,16 @@ const Home = () => {
               learn about my journey so far.
             </TextInfo>
             <ButtonContainer>
-              <Button>Let's Talk</Button>
-
-              <Button>Resume</Button>
+              <a href="www.google.com" rel="noreferrer" target="_blank">
+                <Button>Let's Talk</Button>
+              </a>
+              <a
+                href="https://resume.io/r/9baJP8n7y"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Button>Resume</Button>
+              </a>
             </ButtonContainer>
           </TextContainer>
         </Bounce>

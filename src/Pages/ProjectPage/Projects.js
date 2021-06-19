@@ -19,6 +19,7 @@ import Footer from "../../Components/Footer/Footer";
 import ProjectData from "./projectData";
 import otherData from "./otherData";
 export const Projects = () => {
+  document.title = "Adarsh Ajit - Projects";
   return (
     <>
       <Bounce top>

@@ -3,6 +3,7 @@ import artImages from "./artData";
 import { ArtContainer, ArtGrid, Img, H1, ArtBox, P } from "./galleryElements";
 
 const Gallery = ({ setSelectedImg }) => {
+  document.title = "Adarsh Ajit - Art";
   return (
     <ArtContainer>
       <H1>Art</H1>
