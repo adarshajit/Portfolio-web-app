@@ -175,12 +175,11 @@ export const P2 = styled.p`
 export const Img2 = styled.img`
   margin-top: 40px;
   max-width: 789px;
-  box-shadow: 4px 7px 55px -19px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 4px 7px 55px -19px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 4px 7px 55px -19px rgba(0, 0, 0, 0.75);
+  border: 3px solid #5e5e5e;
+  border-radius: 10px;
   @media screen and (max-width: 768px) {
     max-width: 360px;
-    margin-top: 20px;
+    margin: 30px;
   }
 `;
 
