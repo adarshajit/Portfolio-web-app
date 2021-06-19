@@ -19,13 +19,14 @@ export const H1 = styled.h1`
 `;
 
 export const P = styled.p`
-  font-size: 24px;
+  font-size: 20px;
   color: #5e5e5e;
   margin: 0 0 0 100px;
   font-weight: 500;
   @media screen and (max-width: 768px) {
-    display: grid;
-    place-items: center;
+    font-size: 18px;
+    display: flex;
+    align-self: center;
     margin: 0;
   }
 `;
