@@ -12,6 +12,7 @@ import {
   ButtonWrapper,
   SocialIcon,
   IconWrapper,
+  A,
 } from "./ContactElements";
 
 import { AiFillGithub as GitIcon } from "react-icons/ai";
@@ -44,13 +45,31 @@ const Contact = () => {
           <IconWrapper>
             <IconContext.Provider value={{ size: "60px" }}>
               <SocialIcon>
-                <GitIcon />
+                <A
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/adarshajit"
+                >
+                  <GitIcon />
+                </A>
               </SocialIcon>
               <SocialIcon>
-                <TwitterIcon />
+                <A
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/AdarshAjits"
+                >
+                  <TwitterIcon />
+                </A>
               </SocialIcon>
               <SocialIcon>
-                <LinkedinIcon />
+                <A
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/adarsh-ajit-2aaa5b1a5/"
+                >
+                  <LinkedinIcon />
+                </A>
               </SocialIcon>
             </IconContext.Provider>
           </IconWrapper>

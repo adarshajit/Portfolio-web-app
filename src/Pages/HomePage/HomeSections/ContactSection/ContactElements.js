@@ -150,6 +150,10 @@ export const SocialIcon = styled.div`
   cursor: pointer;
   justify-content: center;
   align-items: center;
+`;
+
+export const A = styled.a`
+  color: #000;
   &:hover {
     color: #7c4dff;
     transition: all 0.3s ease-in-out;
