@@ -173,6 +173,8 @@ export const P2 = styled.p`
 `;
 
 export const Img2 = styled.img`
+  display: flex;
+  flex-direction: column;
   margin-top: 40px;
   max-width: 789px;
   border: 3px solid #5e5e5e;
