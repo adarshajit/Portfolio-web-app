@@ -1,7 +1,7 @@
 <h1 align="center">My Portfolio<h1>
 
 <p align="center">
-  <a href="https://quotify-app.netlify.app/">
+  <a href="https://adarshajit.netlify.app/">
     <img alt="diamond" src="./public/android-chrome-192x192.png" width="100" height="100"/>
   </a>
 </p>
