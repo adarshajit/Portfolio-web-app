@@ -205,7 +205,20 @@ export const Tag = styled.p`
 `;
 
 export const Name = styled.p`
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: 800;
+  margin-right: 30px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: left;
+  }
+`;
+
+export const Desig = styled.p`
+  font-size: 22px;
+  color: #5a5a5a;
   font-weight: 800;
   margin-right: 30px;
 

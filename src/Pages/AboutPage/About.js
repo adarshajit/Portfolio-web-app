@@ -33,6 +33,7 @@ import {
   QuoteText,
   QuoteAuthor,
   Name,
+  Desig,
   Tag,
   MyData,
   InfoCard,
@@ -68,6 +69,7 @@ export const About = () => {
           <div>
             <Tag>Hi, My name is.. </Tag>
             <Name>Adarsh Ajit ✨</Name>
+            <Desig>Software Engineer, BigBinary</Desig>
             <P2>
               I'am a recent Computer Science graduate from Federal Institute of
               Science and Technology. I was always fascinated by computers the

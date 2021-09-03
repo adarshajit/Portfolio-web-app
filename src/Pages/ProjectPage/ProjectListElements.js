@@ -147,7 +147,7 @@ export const ProjectInfo = styled.div`
   margin: 100px;
 
   @media screen and (max-width: 768px) {
-    margin: 0px;
+    margin: 0px 14px 0 0;
     max-width: 350px;
   }
 `;
@@ -167,6 +167,11 @@ export const P2 = styled.p`
     margin: 0 0 0 10px;
   }
 
+  @media screen and (max-width: 440px) {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
   @media screen and (max-width: 300px) {
     font-size: 15px;
   }
@@ -182,6 +187,11 @@ export const Img2 = styled.img`
   @media screen and (max-width: 768px) {
     max-width: 360px;
     margin: 30px;
+  }
+
+  @media screen and (max-width: 400px) {
+    max-width: 280px;
+    margin-left: 14px;
   }
 `;
 
