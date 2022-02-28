@@ -33,7 +33,6 @@ import {
   QuoteText,
   QuoteAuthor,
   Name,
-  Desig,
   Tag,
   MyData,
   InfoCard,
@@ -69,7 +68,7 @@ export const About = () => {
           <div>
             <Tag>Hi, My name is.. </Tag>
             <Name>Adarsh Ajit ✨</Name>
-            <Desig>Software Engineer, BigBinary</Desig>
+            <br/>
             <P2>
               I'am a recent Computer Science graduate from Federal Institute of
               Science and Technology. I was always fascinated by computers the
@@ -162,15 +161,14 @@ export const About = () => {
         <AboutText>
           <SubHeading>Colors</SubHeading>
           <ColorWrapper>
-            <Color style={{ backgroundColor: colorsList[0] }}>
-              <ColorText>{colorsList[0]}</ColorText>
-            </Color>
-            <Color style={{ backgroundColor: colorsList[1] }}>
-              <ColorText>{colorsList[1]}</ColorText>
-            </Color>
-            <Color style={{ backgroundColor: colorsList[2] }}>
-              <ColorText>{colorsList[2]}</ColorText>
-            </Color>
+            {colorsList.map(item=>{
+              return(
+                <Color style={{ backgroundColor: `${item}` }}>
+                <ColorText>{item}</ColorText>
+                </Color>
+              )
+            })}
+          
           </ColorWrapper>
         </AboutText>
 
